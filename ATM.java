@@ -15,6 +15,15 @@ public class Main {
                     Double balance  = scanner.nextDouble();
                     
                 }
+                 case 3 -> {
+                      System.out.println("Enter Amount :");
+                      Double amt = scanner.nextDouble();
+                      if(amt < = balanace) balance -= amt;
+                      System.out.println("Insufficient balance");
+
+                 }
+                 case 4 -> System.exit(0);
+                      default -> System.out.println("Invalid Choice");
             }
         }
      }
